@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url('../images/Banner\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 1), transparent);
+    text-align: center;
+    color: white;
+    width: 1320px;
+    height: 600px;
+    margin: 20px 192px;
+    border-radius: 16px;
+}
+
+.banner h3 {
+    margin-top: 180px;
+    font-size: 32px;
+}
+
+.banner h1 {
+    font-size: 72px;
+}
