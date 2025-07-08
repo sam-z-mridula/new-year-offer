@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: 'Merriweather', sans-serif;
 }
 
 header {
@@ -10,7 +16,7 @@ header {
     background-blend-mode: darken;
     height: 700px;
     display: flex;
-    align-items: center;
+    align-items: center;;
 }
 
 .banner {
@@ -19,15 +25,17 @@ header {
     color: white;
     width: 1320px;
     height: 600px;
-    margin: 20px 192px;
+    margin: 20px 15px;
     border-radius: 16px;
 }
 
 .banner h3 {
     margin-top: 180px;
     font-size: 32px;
+    font-weight: 300;
 }
 
 .banner h1 {
     font-size: 72px;
+    font-weight: 900;
 }
