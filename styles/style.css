@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
     margin: 0;
@@ -27,6 +28,7 @@ header {
     height: 600px;
     margin: 20px 15px;
     border-radius: 16px;
+    position: relative;
 }
 
 .banner h3 {
@@ -38,4 +40,79 @@ header {
 .banner h1 {
     font-size: 72px;
     font-weight: 900;
+}
+
+.section-1 {
+    text-align: center;
+    margin: 120px 270px 120px 280px;
+}
+
+.section-1 h1, h2, h3 {
+    font-family: 'Inter',sans-serif;
+}
+
+.section-1 h1 {
+    color: #FF0000;
+    font-size: 85px;
+    margin-bottom: 48px;
+}
+
+.section-1 h3 {
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.section-1 h2 {
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 48px;
+}
+
+.section-2 {
+    background: url('../images/Vectorrr.png');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken;
+    /* display: flex; */
+}
+
+.only-text {
+    background: linear-gradient(to right, rgb(1, 0, 21), transparent);
+    width: 657px;
+    height: 176px;
+    margin: 20px 16px;
+    border-radius: 16px;
+    color: white;
+    padding: 126px 552px 298px 126px;
+}
+
+.only-text h1{
+    font-size: 68px;
+    letter-spacing: 0.5rem;
+}
+
+.only-text p{
+    font-family: 'Inter',sans-serif;
+    font-size: 18px;
+    font-weight: 150;
+    margin: 24px 0 48px 0;
+    line-height: 1.8rem;
+}
+
+.only-text a{
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-left: 32px;
+}
+
+.only-text img{
+    /* text-align: right; */
+    margin: -385px 138px -4px 730px;
+    background: transparent;
 }
