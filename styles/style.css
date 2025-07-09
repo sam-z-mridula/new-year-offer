@@ -116,3 +116,28 @@ header {
     margin: -385px 138px -4px 730px;
     background: transparent;
 }
+
+.pink-bg {
+    margin: 168px 24px 120px 24px;
+    background: linear-gradient(#ffe6e6, transparent);
+    /* background: lightpink; */
+    padding: 100px 386px 110px 385px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.pink-bg button{
+    border: none;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background-color: #FF0000;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.red {
+    color: #FF0000;
+}
