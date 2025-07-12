@@ -4,9 +4,6 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-body {
     font-family: 'Merriweather', sans-serif;
 }
 
@@ -206,7 +203,7 @@ header {
 
 /* Holiday Section */
 .holiday{
-    margin: 0 105px 64px;
+    margin: 0 105px;
 }
 
 .holiday-text{
@@ -262,4 +259,42 @@ header {
     z-index: 1;
     float: right;
     width: 250px;
+}
+
+/* Portfolio Section */
+.portfolio{
+    margin: 132px 105px 120px;
+}
+
+.portfolio h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    font-weight: 450;
+    margin-bottom: 16px;
+}
+
+.portfolio h2{
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 850;
+    font-size: 45px;
+    color: #070211;
+    margin-bottom: 22px;
+}
+.portfolio p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #6D6D6D;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.7rem;
+    margin-bottom: 48px;
+}
+
+.portfolio-img{
+    width: 368px;
+    height: auto;
+    margin-bottom: 14px;
+}
+
+.mr-right{
+    margin-right: 14px;
 }
