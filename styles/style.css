@@ -298,3 +298,69 @@ header {
 .mr-right{
     margin-right: 14px;
 }
+
+/* Newsletter Section */
+.newsletter{
+    margin: 0 105px 120px;
+    background: #FFF2F2;
+    border-radius: 16px;
+    text-align: center;
+    padding: 70px 0;
+    color: #6D6D6D;
+}
+
+.news img{
+    width: 130px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.news h1{
+    font-size: 44px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #070211;
+}
+
+.news p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #6D6D6D;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.7rem;
+    margin-bottom: 48px;
+}
+
+#mns{
+    position: relative;
+    margin: 0 253px;
+}
+
+.news-mail{
+    padding: 25px 0 25px 30px;
+    width: 550px;
+    z-index: 2;
+    border: none;
+    border-radius: 50px;
+}
+
+.news-mail::placeholder{
+    color: #d4d4d4;
+    font-family: 'Inter', sans-serif;
+    font-size: ;
+}
+
+.subscribe{
+    display: inline-block;
+    position: absolute;
+    right: 32px;
+    top: 1px;
+    z-index: 1;
+    background: #FF0000;
+    color: white;
+    border-radius: 0 50px 50px 0;
+    padding: 24px 56px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
