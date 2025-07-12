@@ -203,3 +203,63 @@ header {
     padding: 35px;
     margin: 0 118px 0 -28px;
 }
+
+/* Holiday Section */
+.holiday{
+    margin: 0 105px 64px;
+}
+
+.holiday-text{
+    margin: 0 115px -130px;
+    text-align: center;
+}
+
+.holiday-text h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.holiday-text h1{
+    font-family: 'Merriweather', sans-serif;
+    font-size: 63px;
+    font-weight: 800;
+    margin-top: 16px;
+}
+
+.holiday-text p{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #6D6D6D;
+    font-weight: 500;
+    margin-top: 26px;
+    line-height: 1.7rem;
+    text-align: center;
+}
+
+.red-bg-img{
+    text-align: center;
+    position: relative;
+}
+
+.z-third{
+    z-index: 3;
+    width: 1127px;
+}
+
+.z-second{
+    position: relative;
+    z-index: 2;
+    top: 194px;
+    float: left;
+    width: 650px;
+}
+
+.z-first{
+    position: relative;
+    top: 240px;
+    left: -65px;
+    z-index: 1;
+    float: right;
+    width: 250px;
+}
