@@ -347,7 +347,7 @@ header {
 .news-mail::placeholder{
     color: #d4d4d4;
     font-family: 'Inter', sans-serif;
-    font-size: ;
+    font-size: 16px;
 }
 
 .subscribe{
@@ -363,4 +363,61 @@ header {
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 500;
+}
+
+/* Footer */
+footer{
+    background: #070211;
+    color: white;
+    padding: 105px 120px;
+}
+
+footer p, a{
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-text{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+}
+
+.footer-text i{
+    color: white;
+    
+}
+
+.foot-right p{
+    display: inline-block;
+}
+
+hr{
+  border: 0.25px solid #2C2835;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 48px 0;
+}
+
+.rights{
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+.unsubscribe{
+    float: right;
+    margin-top: 40px;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+}
+
+.icon{
+    width: 57px;
+    height: auto;
 }
